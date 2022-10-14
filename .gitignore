@@ -1,0 +1,12 @@
+*
+
+!*/
+
+!.gitignore
+!README.md
+!environment.yml
+!requirements.txt
+!slides.pdf
+
+!tutorial/*.ipynb
+!exercise/*.ipynb
