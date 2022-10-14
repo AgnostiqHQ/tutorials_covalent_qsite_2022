@@ -12,7 +12,7 @@ Here, you'll find:
 
 1. The slides from the talk (`slides.pdf`).
 
-2. Jupyter notebooks containing the tutorial (`tutorial/qsvm_tutorial.ipynb`) and challenge (`exercise/qsvm_challenge.ipynb`) scripts.
+2. Jupyter notebooks containing the tutorial (`tutorial/covalent_qsvm_tutorial.ipynb`) and challenge (`exercise/covalent_qsvm_challenge.ipynb`) scripts.
 
 ## Install instructions
 
