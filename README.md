@@ -24,21 +24,21 @@ To run the jupyter notebooks, you will need a Python (`conda`) environment with 
 
 * To create a fresh conda environment, navigate to root directory of this repo (`tutorials_covalent_qsite_2022`) and run
 
-        > conda env create -f environment.yml
+        conda env create -f environment.yml
 
     This will create an environment called `qsite_covalent`.
     
 * To use this environment, activate it with the following command:
 
-        > conda activate qsite_covalent
+        conda activate qsite_covalent
 
 * You can make the environment visible to your Jupyter Notebook viewer by running
 
-        > python -m ipykernel install --user --name=qsite_covalent
+        python -m ipykernel install --user --name=qsite_covalent
 
     Jupyter notebooks can be opened with
 
-        > jupyter notebook <insert-notebook-filename-or-directory>
+        jupyter notebook <insert-notebook-filename-or-directory>
 
     With the notebook open in a browser window, select the kernel (i.e. Python environment) from the 'Kernel' drop-down menu:
     
@@ -51,10 +51,10 @@ Alternatively, you can skip the `ipykernel install` command by opening notebooks
 
 After successfully creating the conda environment, the Covalent server can be started as follows
 
-        > covalent start --ignore-migrations
+        covalent start --ignore-migrations
 
 Covalent can optionally be started in debug mode for more verbose logging as follows
 
-        > covalent start -d --ignore-migrations
+        covalent start -d --ignore-migrations
 
 That's it, you are good to go!
