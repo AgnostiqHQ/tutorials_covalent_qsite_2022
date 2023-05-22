@@ -70,7 +70,7 @@ MarkupSafe==2.1.1
 matplotlib==3.6.1
 matplotlib-inline==0.1.6
 mistune==2.0.4
-mpmath==1.2.1
+mpmath==1.3.0
 msgpack==1.0.4
 mthree==1.1.0
 multidict==6.0.2
